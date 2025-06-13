@@ -1,0 +1,21 @@
+{
+    "name": "branzia/checkout",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Branzia\\Checkout\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Visvanathan",
+            "email": "visvanathan.tech@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "3.3"
+    }
+}
